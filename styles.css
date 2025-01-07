@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: system-ui;
+	font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-size: 1.6rem;
+}
+
+.heart {
+	font-size: 20rem;
+	color: red;
+	animation: zoom 0.3s linear infinite alternate;
+}
+
+@keyframes zoom {
+	0% {
+		scale: 0;
+	}
+
+	100% {
+		scale: 1.2;
+	}
+}
